@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        .main {
+            display: flex;
+            height: 100px;
+            width: 1200px;
+            margin: auto;
+            margin-top: 100px;
+           
+        }
+
+        .main div {
+            background: rgba(0, 0, 0, .5);
+            flex: 1;
+            border: 1px greenyellow;
+            color: white;
+            text-align: left;
+            line-height: 100px;
+            font-weight: bolder;
+        }
+
+        .main div:nth-child(2n) {
+            background: greenyellow;
+        }
+        .main div span{
+            padding: 20px;
+        }
+        .main div a{
+            padding: 20px;
+            font-size: 20px;
+            color: tomato;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div><span>尚帅:</span> <a href="https://zengdongjienb.github.io/progress/%E5%8D%8E%E4%B8%BA/">华为商城</a></div>
+        <div><span>娄梦梦:</span><a href="https://zengdongjienb.github.io/progress/%E4%BA%AC%E4%B8%9C/111.html">京东商城</a></div>
+        <div><span>王龙:</span><a href="https://zengdongjienb.github.io/progress/%E4%BA%AC%E4%B8%9C%E9%A1%B9%E7%9B%AE/">京东商城</a></div>
+        <div><span>代胜亮:</span><a href="https://zengdongjienb.github.io/progress/%E4%BA%AC%E4%B8%9C1/">京东商城</a></div>
+    </div>
+</body>
+
+</html>
